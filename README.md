@@ -1,7 +1,7 @@
 RP-DeLP_solver
 ==============
 
-## RP-DeLP solver
+## Introduction
 
 This README explains how to install the RP-DeLP solver in your local machine as well
 as the dependencies required. There's a brief explanation of the directory structure
@@ -41,8 +41,8 @@ For further explanations or any dectected issue please contact some of the autho
   * There are some pdlp program examples in:  
     http://svn-ccia.udl.cat/argumentation/solvers/examples_clima/
   * Those examples are explained in the following paper:  
-    Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo:   
-    Web Based System for Weighted Defeasible Argumentation.  
+    **Web Based System for Weighted Defeasible Argumentation.**  
+    *Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo.*  
     CLIMA 2013: 155-171
   * Examples of usage:  
     * `$python solver.py -f examples/program1.pdlp -s minisat -o max-ideal`
