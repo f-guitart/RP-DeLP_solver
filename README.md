@@ -60,32 +60,31 @@ For further explanations or any dectected issue please contact some of the autho
     * `$python solver.py -f examples/program1.pdlp -s minisat -o multiple`
     * `$python solver.py -f examples/program1.pdlp -s clingo -o multiple`  
 
-blah
 ## Output format:
-    After the execution of the script a JSON file should de created. This file will be named using
-    the following pattern `<original_name>-<output_option>-<solver-option>.json`.
-    The JSON file contains the following fields:
-    * file (file solved)
-    * solver (solver used)
-    * output (chosen semantics)
-    * n_outputs (number of outputs)
-    * timeout (timeout value, not used)
-    * consistent (true if the strict part of the program is consistent, false otherwise)
-    * blocked_list (arguments blocked)
-    * warrant_list (arguments warranted)
+After the execution of the script a JSON file should de created. This file will be named using
+the following pattern `<original_name>-<output_option>-<solver-option>.json`.
+The JSON file contains the following fields:
+* file (file solved)
+* solver (solver used)
+* output (chosen semantics)
+* n_outputs (number of outputs)
+* timeout (timeout value, not used)
+* consistent (true if the strict part of the program is consistent, false otherwise)
+* blocked_list (arguments blocked)
+* warrant_list (arguments warranted)
 
-    The warrant and blocked lists are ordered list containing the arguments warranted and blocked
-    for each output.
+The warrant and blocked lists are ordered list containing the arguments warranted and blocked
+for each output.
 
-    Arguments are formatted as follows:
-    * Blocked:
-      * Conclusion
-      * Reason of blocking (cycle or conflict)
-      * Conflicting literals or literals involved in the cycle
-      * Support
-      * Strength
-    * Warranted:
-      * Conclusion
-      * Support
-      * Strength
+Arguments are formatted as follows:
+* Blocked:
+  * Conclusion
+  * Reason of blocking (cycle or conflict)
+  * Conflicting literals or literals involved in the cycle
+  * Support
+  * Strength
+* Warranted:
+  * Conclusion
+  * Support
+  * Strength
    
