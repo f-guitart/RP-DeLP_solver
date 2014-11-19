@@ -20,11 +20,11 @@ For further explanations or any dectected issue please contact some of the autho
 # Dependencies:
 1- python 2.7
 2- sympy dpll installation (example of installation in Fedora):
-  #yum install sympy
+  `#yum install sympy`
 
 2- configure rpdelp_web dependency:
   2.1- add rpdelp_web.py to pythonpath:
-	export PYTHONPATH=$PYTHONPATH:/home/francesc/udl/argumentation/web/app/
+	`$export PYTHONPATH=$PYTHONPATH:/home/francesc/udl/argumentation/web/app/`
 
 3- install minisat and clingo:
   minisat 2.2.0: http://minisat.se/MiniSat.html
@@ -37,10 +37,10 @@ For further explanations or any dectected issue please contact some of the autho
   Those examples are explained in the following paper:
     Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo: Web Based System for Weighted Defeasible Argumentation. CLIMA 2013: 155-171
   Examples of usage:
-    $python solver.py -f examples/program1.pdlp -s minisat -o max-ideal
-    $python solver.py -f examples/program1.pdlp -s clingo -o max-ideal
-    $python solver.py -f examples/program1.pdlp -s minisat -o multiple
-    $python solver.py -f examples/program1.pdlp -s clingo -o multiple
+    `$python solver.py -f examples/program1.pdlp -s minisat -o max-ideal`
+    `$python solver.py -f examples/program1.pdlp -s clingo -o max-ideal`
+    `$python solver.py -f examples/program1.pdlp -s minisat -o multiple`
+    `$python solver.py -f examples/program1.pdlp -s clingo -o multiple`
 
 #####
 Nota: actualitzar rpdelp_web.py al svn
