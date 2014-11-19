@@ -1,0 +1,104 @@
+{
+    "file": "examples/program1.pdlp", 
+    "solver": "minisat", 
+    "consistent": true, 
+    "time": 0.816382884979248, 
+    "times": [
+        0.8192079067230225
+    ], 
+    "timeout": "8000", 
+    "blocked_list": [
+        [
+            [
+                "sp", 
+                "conflict", 
+                [
+                    "sp", 
+                    "dc", 
+                    "~dc"
+                ], 
+                [
+                    "sp"
+                ], 
+                1
+            ], 
+            [
+                "dc", 
+                "conflict", 
+                [
+                    "sp", 
+                    "dc", 
+                    "~dc"
+                ], 
+                [
+                    "dc"
+                ], 
+                1
+            ], 
+            [
+                "ff", 
+                "conflict", 
+                "~ff", 
+                [
+                    [
+                        "sb"
+                    ], 
+                    "ff"
+                ], 
+                1
+            ], 
+            [
+                "~ff", 
+                "conflict", 
+                "ff", 
+                [
+                    [
+                        "sb"
+                    ]
+                ], 
+                1
+            ]
+        ]
+    ], 
+    "n_outputs": 1, 
+    "output": "multiple", 
+    "warrant_list": [
+        [
+            [
+                "m", 
+                [
+                    "m"
+                ], 
+                0
+            ], 
+            [
+                "r", 
+                [
+                    "r"
+                ], 
+                0
+            ], 
+            [
+                "df", 
+                [
+                    "df"
+                ], 
+                1
+            ], 
+            [
+                "sb", 
+                [
+                    "sb"
+                ], 
+                1
+            ], 
+            [
+                "fs", 
+                [
+                    "fs"
+                ], 
+                1
+            ]
+        ]
+    ]
+}

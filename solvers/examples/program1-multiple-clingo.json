@@ -1,0 +1,112 @@
+{
+    "file": "examples/program1.pdlp", 
+    "solver": "clingo", 
+    "consistent": true, 
+    "time": 0.6167409420013428, 
+    "times": [
+        0.6195640563964844
+    ], 
+    "timeout": "8000", 
+    "blocked_list": [
+        [
+            [
+                "sp", 
+                "conflict", 
+                [
+                    "sb", 
+                    "dc", 
+                    "sp", 
+                    "ff", 
+                    "~dc"
+                ], 
+                [
+                    "sp"
+                ], 
+                1
+            ], 
+            [
+                "dc", 
+                "conflict", 
+                [
+                    "sb", 
+                    "dc", 
+                    "sp", 
+                    "ff", 
+                    "~dc"
+                ], 
+                [
+                    "dc"
+                ], 
+                1
+            ], 
+            [
+                "ff", 
+                "conflict", 
+                [
+                    "~ff"
+                ], 
+                [
+                    [
+                        "sb"
+                    ], 
+                    "ff"
+                ], 
+                1
+            ], 
+            [
+                "~ff", 
+                "conflict", 
+                [
+                    "ff"
+                ], 
+                [
+                    [
+                        "sb"
+                    ]
+                ], 
+                1
+            ]
+        ]
+    ], 
+    "n_outputs": 1, 
+    "output": "multiple", 
+    "warrant_list": [
+        [
+            [
+                "m", 
+                [
+                    "m"
+                ], 
+                0
+            ], 
+            [
+                "r", 
+                [
+                    "r"
+                ], 
+                0
+            ], 
+            [
+                "df", 
+                [
+                    "df"
+                ], 
+                1
+            ], 
+            [
+                "sb", 
+                [
+                    "sb"
+                ], 
+                1
+            ], 
+            [
+                "fs", 
+                [
+                    "fs"
+                ], 
+                1
+            ]
+        ]
+    ]
+}

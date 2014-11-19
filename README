@@ -1,0 +1,49 @@
+##################
+This README explains how to install the RP-DeLP solver in your local machine as well
+as the dependencies required. There's a brief explanation of the directory structure
+and what main scripts do.
+
+For further explanations or any dectected issue please contact some of the authors:
+- guitart.francesc@gmail.com
+- ramon@diei.udl.cat
+- tracy@diei.udl.cat
+- lluis@iiia.csic.cat
+##################
+
+# Directory overview:
+- solvers:	This directory contains max-ideal and multiple outputs solvers, as well as
+		auxiliar libraries.
+  · solvers/debug: this directory contains encodings generated during solving.
+- web:		This directory contains scripts for formatting outputs.
+  · web/user_submitted_programs: this directory contains xml transformations of input files.
+
+# Dependencies:
+1- python 2.7
+2- sympy dpll installation (example of installation in Fedora):
+  #yum install sympy
+
+2- configure rpdelp_web dependency:
+  2.1- add rpdelp_web.py to pythonpath:
+	export PYTHONPATH=$PYTHONPATH:/home/francesc/udl/argumentation/web/app/
+
+3- install minisat and clingo:
+  minisat 2.2.0: http://minisat.se/MiniSat.html
+  clingo 3.0.5: http://sourceforge.net/projects/potassco/files/clingo/3.0.5/
+  (Note: there should be two links (clingo and minisat) in your $PATH
+
+# Examples:
+  There are some pdlp program examples in:
+    http://svn-ccia.udl.cat/argumentation/solvers/examples_clima/
+  Those examples are explained in the following paper:
+    Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo: Web Based System for Weighted Defeasible Argumentation. CLIMA 2013: 155-171
+  Examples of usage:
+    $python solver.py -f examples/program1.pdlp -s minisat -o max-ideal
+    $python solver.py -f examples/program1.pdlp -s clingo -o max-ideal
+    $python solver.py -f examples/program1.pdlp -s minisat -o multiple
+    $python solver.py -f examples/program1.pdlp -s clingo -o multiple
+
+#####
+Nota: actualitzar rpdelp_web.py al svn
+Nota: tambe actualitzar RP_DeLPsolver.py
+Nota: tambe actualitzar RP_DeLPsolver_mo.py
+#####

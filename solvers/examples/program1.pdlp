@@ -1,0 +1,27 @@
+:strict
+
+m.
+r.
+~dc :- sp.
+
+:defeasible
+
+~ff :- fs.
+~fs :- ff.
+~sp :- sb.
+~sb :- sp.
+~dc :- df.
+~df :- dc.
+ff :- sb.
+dc :- sb.
+~ff :- sb.
+~dc :- sb.
+ff.
+fs.
+sb.
+sp.
+dc.
+df.
+
+
+:end
