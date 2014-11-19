@@ -60,7 +60,7 @@ For further explanations or any dectected issue please contact some of the autho
     * `$python solver.py -f examples/program1.pdlp -s minisat -o multiple`
     * `$python solver.py -f examples/program1.pdlp -s clingo -o multiple`
 
-  * Output:
+## Output
     After the execution of the script a JSON file should de created. This file will be named using
     the following pattern `<original_name>-<output_option>-<solver-option>.json`.
     The JSON file contains the following fields:
