@@ -15,11 +15,11 @@ For further explanations or any dectected issue please contact some of the autho
 ## Directory overview:
    * solvers:	This directory contains max-ideal and multiple outputs solvers, as well as
 		auxiliar libraries.  
-  			 * solvers/debug: this directory contains encodings generated during solving.   		
+  * solvers/debug: this directory contains encodings generated during solving.   		
 		If it does not exist will be created automatically.
    * web:	This directory contains scripts for formatting input files. Originally was devoted to
      		read from a web-based application, but now it also converts pdlp files to xml.  
-  		     * web/user_submitted_programs: this directory contains xml transformations of input files. 
+  * web/user_submitted_programs: this directory contains xml transformations of input files. 
 		If it does not exist will be created automatically.
 
 ## Dependencies:
@@ -32,8 +32,8 @@ For further explanations or any dectected issue please contact some of the autho
 	`$export PYTHONPATH=$PYTHONPATH:(INSTALLATION_PATH)/web/app/`
 
    4. Install minisat and clingo:  
-      4.1. minisat 2.2.0: http://minisat.se/MiniSat.html  
-      4.2. clingo 3.0.5: http://sourceforge.net/projects/potassco/files/clingo/3.0.5/  
+      4.1. minisat (version 2.2.0): http://minisat.se/MiniSat.html  
+      4.2. clingo (version 3.0.5): http://sourceforge.net/projects/potassco/files/clingo/3.0.5/  
       (Note: there should be two links (called clingo and minisat) in your `$PATH`)  
 
 ## Examples:
@@ -43,7 +43,7 @@ For further explanations or any dectected issue please contact some of the autho
     **Web Based System for Weighted Defeasible Argumentation.**  
     *Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo.*  
     CLIMA 2013: 155-171
-  * Execution arguments:
+  * Execution arguments:  
     The solver is called using solvers/solver.py script. Here is a list of
     execution arguments:
     *  -h,        --help          show this help message and exit
