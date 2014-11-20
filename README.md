@@ -39,7 +39,7 @@ For further explanations or any dectected issue please contact some of the autho
 ## Examples:
   * There are some pdlp program examples in:   
     https://github.com/f-guitart/RP-DeLP_examples 
-  * Those examples are explained in the following paper:  
+  * These examples are explained in the following paper:  
     **Web Based System for Weighted Defeasible Argumentation.**  
     *Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo.*  
     CLIMA 2013: 155-171
