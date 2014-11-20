@@ -37,9 +37,8 @@ For further explanations or any dectected issue please contact some of the autho
       (Note: there should be two links (called clingo and minisat) in your `$PATH`)  
 
 ## Examples:
-  * There are some pdlp program examples in: 
+  * There are some pdlp program examples in:   
     https://github.com/f-guitart/RP-DeLP_examples 
-    http://svn-ccia.udl.cat/argumentation/solvers/examples_clima/
   * Those examples are explained in the following paper:  
     **Web Based System for Weighted Defeasible Argumentation.**  
     *Teresa Alsinet, Ramón Béjar, Francesc Guitart, Lluis Godo.*  
