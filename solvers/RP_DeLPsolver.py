@@ -178,8 +178,10 @@ def solve(p,options):
         __builtin__.ENCODINGPATH="/home/francesc/argumentation/debug/"
 
     else:
-        __builtin__.CLINGOPATH="/usr/bin/"
-        __builtin__.MINISATPATH="/usr/bin/"
+        #__builtin__.CLINGOPATH="/usr/bin/"
+        __builtin__.CLINGOPATH=""
+        #__builtin__.MINISATPATH="/usr/bin/"
+        __builtin__.MINISATPATH=""
         __builtin__.GLUCOSEPATH="/usr/local/bin/"
 
         SCRPATH=os.path.realpath(__file__)
