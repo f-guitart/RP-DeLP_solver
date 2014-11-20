@@ -7,6 +7,8 @@ This README explains how to install the RP-DeLP solver in your local machine as 
 as the dependencies required. There's a brief explanation of the directory structure
 and what main scripts do.
 
+In case you don't want to intall the solver in your computer, you can use the RP-DeLP web version which is hosted at http://arinf.udl.cat/rp-delp.  
+
 For further explanations or any dectected issue please contact some of the authors:
 - guitart.francesc@gmail.com
 - ramon@diei.udl.cat
