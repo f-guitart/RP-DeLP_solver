@@ -11,7 +11,6 @@ For further explanations or any dectected issue please contact some of the autho
 - guitart.francesc@gmail.com
 - ramon@diei.udl.cat
 - tracy@diei.udl.cat
-- lluis@iiia.csic.cat
 
 ## Directory overview:
    * solvers:	This directory contains max-ideal and multiple outputs solvers, as well as
