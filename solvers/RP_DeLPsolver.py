@@ -108,8 +108,9 @@ def level_computing(level, program, unicity, solver):
                    
                     for lit in c_lit:
                         if lit in program.get_warranted():
+                            print "  ::::Removed...", lit
                             c_lit.remove(lit)
-                    print "*** Conflict for block  de %s ???:::" % literal,confl
+                    print "*** Conflict for block  de %s ???:::" % literal,'.',confl
                 if cycl:
                     print "**** Cicle de ",vc
                     I=I+vc
@@ -135,6 +136,7 @@ def level_computing(level, program, unicity, solver):
             else:
                 #program.stats.set_blocked(literal,"conflict",c_lit,level)
                 program.stats.prova(program,literal,"conflict",c_lit,program.rulesList.get_producing_rule2(program,literal),level)
+                print "****",c_lit
                 #posar els bloquejats per conflicte
             #c=raw_input("---STOP at blocked---")
             #we set unvalid because it must be checked in next iteration for a cycle
